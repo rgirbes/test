@@ -24,11 +24,7 @@ public class factorial {
 	}
 	
 	public static void main (String [] args){
-		Scanner scan = new Scanner(System.in);
-		int f=0;
-		System.out.println("Introdueix un número del 0 al 170: ");
-		f = scan.nextInt();
-		System.out.println("El factorial de "+f+" és: "+factorial(f));
+		System.out.println(factorial(5));
 	}
 
 }
